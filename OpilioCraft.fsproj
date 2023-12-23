@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+
+    <AssemblyName>OpilioCraft</AssemblyName>
+    <RootNamespace>OpilioCraft</RootNamespace>
+
+    <PackageId>OpilioCraft</PackageId>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <Description>Contains code shared between all OpilioCraft projects.</Description>
+    <Authors>Carsten Schäfer</Authors>
+    <Copyright>Copyright (c) 2023 by Carsten Schäfer</Copyright>
+    <RepositoryUrl>https://github.com/EinQuadrat/OpilioCraft.git</RepositoryUrl>
+    <PackageTags>OpilioCraft;FSharp</PackageTags>
+
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+    <RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Settings.fs" />
+  </ItemGroup>
+
+</Project>
