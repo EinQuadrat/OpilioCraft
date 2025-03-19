@@ -11,8 +11,8 @@
     <RepositoryUrl>https://github.com/EinQuadrat/OpilioCraft.git</RepositoryUrl>
     <PackageTags>OpilioCraft;FSharp</PackageTags>
 
-    <AssemblyName>$(SolutionId).$(MSBuildProjectName)</AssemblyName>
-    <RootNamespace>$(SolutionId).$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 
     <DebugType>None</DebugType>
     <DebugSymbols>False</DebugSymbols>
