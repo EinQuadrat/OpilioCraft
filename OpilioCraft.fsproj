@@ -4,11 +4,8 @@
     <TargetFramework>net9.0</TargetFramework>
 
     <Description>Contains code shared between all OpilioCraft projects.</Description>
+    <VersionPrefix>1.1.0</VersionPrefix>
 
-    <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
-    <RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
-    <DebugType>none</DebugType>
   </PropertyGroup>
 
   <ItemGroup>
