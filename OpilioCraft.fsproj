@@ -3,13 +3,9 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
 
+    <VersionPrefix>1.1.1</VersionPrefix>
     <Description>Contains code shared between all OpilioCraft projects.</Description>
 
-    <GenerateDocumentationFile>False</GenerateDocumentationFile>
-    <RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
-    <RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
-    <DebugType>none</DebugType>
-    <Copyright>Copyright (c) 2023-2025 by Carsten Schäfer</Copyright>
   </PropertyGroup>
 
   <ItemGroup>

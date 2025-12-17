@@ -1,20 +1,28 @@
 ﻿<Project>
 
-    <PropertyGroup Label="UserMacros">
-        <SolutionId>OpilioCraft</SolutionId>
-    </PropertyGroup>
+  <PropertyGroup Label="UserMacros">
+    <SolutionId>OpilioCraft</SolutionId>
+  </PropertyGroup>
 
-    <PropertyGroup>
+  <PropertyGroup>
 
-        <VersionPrefix>1.1.1</VersionPrefix>
         <Authors>Carsten Schäfer</Authors>
         <Copyright>Copyright (c) 2023-2025 by Carsten Schäfer</Copyright>
         <RepositoryUrl>https://github.com/EinQuadrat/OpilioCraft.git</RepositoryUrl>
         <PackageTags>OpilioCraft;FSharp</PackageTags>
 
-        <AssemblyName>$(SolutionId).$(MSBuildProjectName)</AssemblyName>
-        <RootNamespace>$(SolutionId).$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
+    <AssemblyName>$(MSBuildProjectName)</AssemblyName>
+    <RootNamespace>$(MSBuildProjectName.Replace(" ", "_"))</RootNamespace>
 
-    </PropertyGroup>
+    <DebugType>None</DebugType>
+    <DebugSymbols>False</DebugSymbols>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+
+    <EnableNETAnalyzers>True</EnableNETAnalyzers>
+    <AnalysisLevel>latest-recommended</AnalysisLevel>
+    <RunAnalyzersDuringLiveAnalysis>True</RunAnalyzersDuringLiveAnalysis>
+    <RunAnalyzersDuringBuild>True</RunAnalyzersDuringBuild>
+
+  </PropertyGroup>
 
 </Project>
